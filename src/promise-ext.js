@@ -1,4 +1,4 @@
-function chain(...promises) {
+function chain(promises) {
     return new Promise((resolve, reject) => {
         var results = [];
         if (promises.length > 0) {
