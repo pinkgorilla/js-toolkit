@@ -1,5 +1,5 @@
 module.exports = {
-    promise: {
+    Promise: {
         ext: require('./src/promise-ext')
     }
 }
